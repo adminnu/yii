@@ -7,6 +7,7 @@ Version 1.1.14 work in progress
 - Bug #1464: Fixed transparent background for ImageMagick in CCaptchaAction (manuel-84, cebe)
 - Bug #1763: CSqlDataProvider was appending another ORDER BY string to an existing ORDER BY statement when using fieldname with dot (szako)
 - Bug #1915: CDataProviderIterator: fixed init in case of disabled pagination (antoncpu)
+- Bug #1933: fixed using "multiple" parameter with a value of false in CHtml::activeDropDownList, CHtml::ListBox and CHtml::DropDownList (adminnu)
 - Bug #1941: yiiactiveform.js form reset now uses CHtml::errorCss instead of a hardcoded value (mdomba)
 - Bug #1942: CActiveForm client/ajax validation will now remove error class from server side validation (mdomba)
 - Bug #1984: CDbMigration: fix of undeclared variable usage in debug information in dropPrimaryKey (papulovskiy) 
